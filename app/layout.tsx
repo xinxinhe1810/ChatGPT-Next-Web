@@ -37,6 +37,7 @@ export default function RootLayout({
         <script src="/serviceWorkerRegister.js" defer></script>
       </head>
       <body>{children}</body>
+      <a href="https://beian.miit.gov.cn/" target="_blank">京ICP备2021040357号-1</a>
     </html>
   );
 }
