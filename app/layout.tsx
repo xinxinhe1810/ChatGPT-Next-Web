@@ -36,8 +36,11 @@ export default function RootLayout({
         <link rel="manifest" href="/site.webmanifest"></link>
         <script src="/serviceWorkerRegister.js" defer></script>
       </head>
-      <body>{children}</body>
-      <a href="https://beian.miit.gov.cn/" target="_blank">京ICP备2021040357号-1</a>
+      <body className="flex-col">
+        {children}
+
+        <a className="beian" href="https://beian.miit.gov.cn/" target="_blank">京ICP备2021040357号-1</a>
+      </body>
     </html>
   );
 }
